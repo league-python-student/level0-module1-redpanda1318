@@ -25,10 +25,21 @@ if __name__ == '__main__':
 
     elif question == 'triangle':
         thing.forward(100)
-        thing.right(60)
+        thing.left(120)
         thing.forward(100)
-        thing.right(60)
+        thing.left(120)
+        thing.forward(100)
+
+    elif question == 'rectangle':
+        thing.forward(120)
+        thing.left(90)
+        thing.forward(80)
+        thing.left(90)
+        thing.forward(120)
+        thing.left(90)
+        thing.forward(80)
 
 
 
     # Call the turtle .done() method
+    turtle.done()
