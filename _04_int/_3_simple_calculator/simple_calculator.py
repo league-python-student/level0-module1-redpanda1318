@@ -6,3 +6,17 @@
 * Use if-else statements to provide the desired math operation on the numbers
   and display the result.
 """
+
+import turtle
+from tkinter import messagebox, simpledialog, Tk
+
+window = Tk()
+window.withdraw()
+
+
+
+question1= simpledialog.askinteger('Title', "What number would you like to pick?")
+question2 = simpledialog.askinteger('Title', "What number would you like to pick?")
+
+question3 = simpledialog.askstring('Title', "Would you like to add,subtract,multiply, or divide?")
+
