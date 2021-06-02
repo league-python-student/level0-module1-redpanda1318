@@ -20,3 +20,17 @@ question2 = simpledialog.askinteger('Title', "What number would you like to pick
 
 question3 = simpledialog.askstring('Title', "Would you like to add,subtract,multiply, or divide?")
 
+if question3 == 'add':
+    print(question1+question2)
+
+elif question3 == 'subtract':
+    print(question1-question2)
+
+elif question3 == 'multiply':
+    print(question1*question2)
+
+elif question3 == 'divide':
+    print(question1/question2)
+
+
+
